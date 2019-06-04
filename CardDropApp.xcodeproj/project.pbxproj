@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		932D1DA322A058C60026D411 /* OverviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D1DA222A058C60026D411 /* OverviewCollectionViewController.swift */; };
+		932D1DAA22A05F140026D411 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 932D1DA522A05F140026D411 /* Montserrat-Medium.ttf */; };
+		932D1DAB22A05F140026D411 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 932D1DA622A05F140026D411 /* Montserrat-ExtraLight.ttf */; };
+		932D1DAC22A05F140026D411 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 932D1DA722A05F140026D411 /* Montserrat-Bold.ttf */; };
+		932D1DAD22A05F140026D411 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 932D1DA822A05F140026D411 /* Montserrat-SemiBold.ttf */; };
+		932D1DAE22A05F140026D411 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 932D1DA922A05F140026D411 /* Montserrat-Regular.ttf */; };
+		93545FE322A063F70055B3FF /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93545FE222A063F70055B3FF /* CategoryCollectionViewCell.swift */; };
+		93545FE522A080BE0055B3FF /* ImageSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93545FE422A080BE0055B3FF /* ImageSelectionViewController.swift */; };
+		93545FE722A14E670055B3FF /* ScaleTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93545FE622A14E670055B3FF /* ScaleTransitioningDelegate.swift */; };
 		9363323622A04E6F00AC7DCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9363323522A04E6F00AC7DCE /* AppDelegate.swift */; };
-		9363323822A04E6F00AC7DCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9363323722A04E6F00AC7DCE /* ViewController.swift */; };
 		9363323B22A04E6F00AC7DCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9363323922A04E6F00AC7DCE /* Main.storyboard */; };
 		9363323D22A04E7400AC7DCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9363323C22A04E7400AC7DCE /* Assets.xcassets */; };
 		9363324022A04E7400AC7DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9363323E22A04E7400AC7DCE /* LaunchScreen.storyboard */; };
+		9363326022A04FAB00AC7DCE /* Images.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9363324822A04FA900AC7DCE /* Images.plist */; };
+		9363326122A04FAB00AC7DCE /* Quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9363324922A04FA900AC7DCE /* Quotes.plist */; };
+		9363326222A04FAB00AC7DCE /* Categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9363324A22A04FA900AC7DCE /* Categories.plist */; };
+		9363327A22A0501E00AC7DCE /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9363327622A0501E00AC7DCE /* Image.swift */; };
+		9363327B22A0501E00AC7DCE /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9363327722A0501E00AC7DCE /* Quote.swift */; };
+		9363327C22A0501E00AC7DCE /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9363327822A0501E00AC7DCE /* Category.swift */; };
+		9363327D22A0501E00AC7DCE /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9363327922A0501E00AC7DCE /* DataRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		932D1DA222A058C60026D411 /* OverviewCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewCollectionViewController.swift; sourceTree = "<group>"; };
+		932D1DA522A05F140026D411 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		932D1DA622A05F140026D411 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		932D1DA722A05F140026D411 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		932D1DA822A05F140026D411 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		932D1DA922A05F140026D411 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		93545FE222A063F70055B3FF /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		93545FE422A080BE0055B3FF /* ImageSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectionViewController.swift; sourceTree = "<group>"; };
+		93545FE622A14E670055B3FF /* ScaleTransitioningDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleTransitioningDelegate.swift; sourceTree = "<group>"; };
 		9363323222A04E6F00AC7DCE /* CardDropApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardDropApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9363323522A04E6F00AC7DCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9363323722A04E6F00AC7DCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9363323A22A04E6F00AC7DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9363323C22A04E7400AC7DCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9363323F22A04E7400AC7DCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9363324122A04E7400AC7DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9363324822A04FA900AC7DCE /* Images.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Images.plist; sourceTree = "<group>"; };
+		9363324922A04FA900AC7DCE /* Quotes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Quotes.plist; sourceTree = "<group>"; };
+		9363324A22A04FA900AC7DCE /* Categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Categories.plist; sourceTree = "<group>"; };
+		9363327622A0501E00AC7DCE /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		9363327722A0501E00AC7DCE /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		9363327822A0501E00AC7DCE /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9363327922A0501E00AC7DCE /* DataRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +65,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		932D1DA422A05F140026D411 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				932D1DA522A05F140026D411 /* Montserrat-Medium.ttf */,
+				932D1DA622A05F140026D411 /* Montserrat-ExtraLight.ttf */,
+				932D1DA722A05F140026D411 /* Montserrat-Bold.ttf */,
+				932D1DA822A05F140026D411 /* Montserrat-SemiBold.ttf */,
+				932D1DA922A05F140026D411 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		9363322922A04E6F00AC7DCE = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +96,41 @@
 		9363323422A04E6F00AC7DCE /* CardDropApp */ = {
 			isa = PBXGroup;
 			children = (
+				9363327522A0501E00AC7DCE /* Model */,
+				9363324722A04FA900AC7DCE /* Data */,
 				9363323522A04E6F00AC7DCE /* AppDelegate.swift */,
-				9363323722A04E6F00AC7DCE /* ViewController.swift */,
+				932D1DA222A058C60026D411 /* OverviewCollectionViewController.swift */,
+				93545FE422A080BE0055B3FF /* ImageSelectionViewController.swift */,
+				93545FE222A063F70055B3FF /* CategoryCollectionViewCell.swift */,
+				93545FE622A14E670055B3FF /* ScaleTransitioningDelegate.swift */,
 				9363323922A04E6F00AC7DCE /* Main.storyboard */,
+				932D1DA422A05F140026D411 /* Fonts */,
 				9363323C22A04E7400AC7DCE /* Assets.xcassets */,
 				9363323E22A04E7400AC7DCE /* LaunchScreen.storyboard */,
 				9363324122A04E7400AC7DCE /* Info.plist */,
 			);
 			path = CardDropApp;
+			sourceTree = "<group>";
+		};
+		9363324722A04FA900AC7DCE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9363324822A04FA900AC7DCE /* Images.plist */,
+				9363324922A04FA900AC7DCE /* Quotes.plist */,
+				9363324A22A04FA900AC7DCE /* Categories.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9363327522A0501E00AC7DCE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9363327622A0501E00AC7DCE /* Image.swift */,
+				9363327722A0501E00AC7DCE /* Quote.swift */,
+				9363327822A0501E00AC7DCE /* Category.swift */,
+				9363327922A0501E00AC7DCE /* DataRequest.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +191,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9363326022A04FAB00AC7DCE /* Images.plist in Resources */,
+				932D1DAE22A05F140026D411 /* Montserrat-Regular.ttf in Resources */,
 				9363324022A04E7400AC7DCE /* LaunchScreen.storyboard in Resources */,
 				9363323D22A04E7400AC7DCE /* Assets.xcassets in Resources */,
+				932D1DAA22A05F140026D411 /* Montserrat-Medium.ttf in Resources */,
+				932D1DAD22A05F140026D411 /* Montserrat-SemiBold.ttf in Resources */,
+				9363326122A04FAB00AC7DCE /* Quotes.plist in Resources */,
+				932D1DAC22A05F140026D411 /* Montserrat-Bold.ttf in Resources */,
+				932D1DAB22A05F140026D411 /* Montserrat-ExtraLight.ttf in Resources */,
+				9363326222A04FAB00AC7DCE /* Categories.plist in Resources */,
 				9363323B22A04E6F00AC7DCE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +212,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9363323822A04E6F00AC7DCE /* ViewController.swift in Sources */,
+				9363327B22A0501E00AC7DCE /* Quote.swift in Sources */,
+				93545FE522A080BE0055B3FF /* ImageSelectionViewController.swift in Sources */,
+				9363327C22A0501E00AC7DCE /* Category.swift in Sources */,
+				9363327D22A0501E00AC7DCE /* DataRequest.swift in Sources */,
+				93545FE722A14E670055B3FF /* ScaleTransitioningDelegate.swift in Sources */,
+				932D1DA322A058C60026D411 /* OverviewCollectionViewController.swift in Sources */,
+				9363327A22A0501E00AC7DCE /* Image.swift in Sources */,
+				93545FE322A063F70055B3FF /* CategoryCollectionViewCell.swift in Sources */,
 				9363323622A04E6F00AC7DCE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2P29KLSZK6;
 				INFOPLIST_FILE = CardDropApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +377,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MozartFalcao.CardDropApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2P29KLSZK6;
 				INFOPLIST_FILE = CardDropApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +396,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MozartFalcao.CardDropApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
