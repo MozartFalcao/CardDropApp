@@ -11,7 +11,6 @@ import UIKit
 protocol Scaling {
     func scalingImageView(transition: ScaleTransitioningDelegate) -> UIImageView?
     
-    
 }
 
 enum TransitionState {

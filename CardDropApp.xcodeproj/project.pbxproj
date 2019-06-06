@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93298F8122A884E100DB2779 /* PhotoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93298F8022A884E100DB2779 /* PhotoView.xib */; };
+		93298F8322A887AA00DB2779 /* PhotoViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93298F8222A887AA00DB2779 /* PhotoViews.xib */; };
+		93298F8522A88ACA00DB2779 /* PhotoViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93298F8422A88ACA00DB2779 /* PhotoViews.swift */; };
 		932D1DA322A058C60026D411 /* OverviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932D1DA222A058C60026D411 /* OverviewCollectionViewController.swift */; };
 		932D1DAA22A05F140026D411 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 932D1DA522A05F140026D411 /* Montserrat-Medium.ttf */; };
 		932D1DAB22A05F140026D411 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 932D1DA622A05F140026D411 /* Montserrat-ExtraLight.ttf */; };
 		932D1DAC22A05F140026D411 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 932D1DA722A05F140026D411 /* Montserrat-Bold.ttf */; };
 		932D1DAD22A05F140026D411 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 932D1DA822A05F140026D411 /* Montserrat-SemiBold.ttf */; };
 		932D1DAE22A05F140026D411 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 932D1DA922A05F140026D411 /* Montserrat-Regular.ttf */; };
+		933F41DE22A9621600CAEE45 /* ShareCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933F41DD22A9621600CAEE45 /* ShareCardViewController.swift */; };
 		93545FE322A063F70055B3FF /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93545FE222A063F70055B3FF /* CategoryCollectionViewCell.swift */; };
 		93545FE522A080BE0055B3FF /* ImageSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93545FE422A080BE0055B3FF /* ImageSelectionViewController.swift */; };
 		93545FE722A14E670055B3FF /* ScaleTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93545FE622A14E670055B3FF /* ScaleTransitioningDelegate.swift */; };
@@ -30,12 +34,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93298F8022A884E100DB2779 /* PhotoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PhotoView.xib; path = "New Group/PhotoView.xib"; sourceTree = "<group>"; };
+		93298F8222A887AA00DB2779 /* PhotoViews.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PhotoViews.xib; path = "New Group/PhotoViews.xib"; sourceTree = "<group>"; };
+		93298F8422A88ACA00DB2779 /* PhotoViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhotoViews.swift; path = "New Group/PhotoViews.swift"; sourceTree = "<group>"; };
 		932D1DA222A058C60026D411 /* OverviewCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewCollectionViewController.swift; sourceTree = "<group>"; };
 		932D1DA522A05F140026D411 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		932D1DA622A05F140026D411 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
 		932D1DA722A05F140026D411 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		932D1DA822A05F140026D411 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		932D1DA922A05F140026D411 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		933F41DD22A9621600CAEE45 /* ShareCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCardViewController.swift; sourceTree = "<group>"; };
 		93545FE222A063F70055B3FF /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		93545FE422A080BE0055B3FF /* ImageSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectionViewController.swift; sourceTree = "<group>"; };
 		93545FE622A14E670055B3FF /* ScaleTransitioningDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleTransitioningDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +85,25 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		933F41DB22A9612D00CAEE45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				932D1DA222A058C60026D411 /* OverviewCollectionViewController.swift */,
+				93545FE422A080BE0055B3FF /* ImageSelectionViewController.swift */,
+				933F41DD22A9621600CAEE45 /* ShareCardViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		933F41DC22A9618200CAEE45 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				9363323522A04E6F00AC7DCE /* AppDelegate.swift */,
+				93545FE622A14E670055B3FF /* ScaleTransitioningDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 		9363322922A04E6F00AC7DCE = {
 			isa = PBXGroup;
 			children = (
@@ -96,17 +123,16 @@
 		9363323422A04E6F00AC7DCE /* CardDropApp */ = {
 			isa = PBXGroup;
 			children = (
+				933F41DC22A9618200CAEE45 /* Delegate */,
+				933F41DB22A9612D00CAEE45 /* View */,
 				9363327522A0501E00AC7DCE /* Model */,
 				9363324722A04FA900AC7DCE /* Data */,
-				9363323522A04E6F00AC7DCE /* AppDelegate.swift */,
-				932D1DA222A058C60026D411 /* OverviewCollectionViewController.swift */,
-				93545FE422A080BE0055B3FF /* ImageSelectionViewController.swift */,
-				93545FE222A063F70055B3FF /* CategoryCollectionViewCell.swift */,
-				93545FE622A14E670055B3FF /* ScaleTransitioningDelegate.swift */,
-				9363323922A04E6F00AC7DCE /* Main.storyboard */,
 				932D1DA422A05F140026D411 /* Fonts */,
-				9363323C22A04E7400AC7DCE /* Assets.xcassets */,
+				93E12BE822A9607F00ECA63E /* PhotoView */,
+				93545FE222A063F70055B3FF /* CategoryCollectionViewCell.swift */,
+				9363323922A04E6F00AC7DCE /* Main.storyboard */,
 				9363323E22A04E7400AC7DCE /* LaunchScreen.storyboard */,
+				9363323C22A04E7400AC7DCE /* Assets.xcassets */,
 				9363324122A04E7400AC7DCE /* Info.plist */,
 			);
 			path = CardDropApp;
@@ -131,6 +157,16 @@
 				9363327922A0501E00AC7DCE /* DataRequest.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		93E12BE822A9607F00ECA63E /* PhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				93298F8422A88ACA00DB2779 /* PhotoViews.swift */,
+				93298F8222A887AA00DB2779 /* PhotoViews.xib */,
+				93298F8022A884E100DB2779 /* PhotoView.xib */,
+			);
+			name = PhotoView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9363326022A04FAB00AC7DCE /* Images.plist in Resources */,
+				93298F8322A887AA00DB2779 /* PhotoViews.xib in Resources */,
 				932D1DAE22A05F140026D411 /* Montserrat-Regular.ttf in Resources */,
 				9363324022A04E7400AC7DCE /* LaunchScreen.storyboard in Resources */,
 				9363323D22A04E7400AC7DCE /* Assets.xcassets in Resources */,
@@ -202,6 +239,7 @@
 				932D1DAB22A05F140026D411 /* Montserrat-ExtraLight.ttf in Resources */,
 				9363326222A04FAB00AC7DCE /* Categories.plist in Resources */,
 				9363323B22A04E6F00AC7DCE /* Main.storyboard in Resources */,
+				93298F8122A884E100DB2779 /* PhotoView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +253,8 @@
 				9363327B22A0501E00AC7DCE /* Quote.swift in Sources */,
 				93545FE522A080BE0055B3FF /* ImageSelectionViewController.swift in Sources */,
 				9363327C22A0501E00AC7DCE /* Category.swift in Sources */,
+				93298F8522A88ACA00DB2779 /* PhotoViews.swift in Sources */,
+				933F41DE22A9621600CAEE45 /* ShareCardViewController.swift in Sources */,
 				9363327D22A0501E00AC7DCE /* DataRequest.swift in Sources */,
 				93545FE722A14E670055B3FF /* ScaleTransitioningDelegate.swift in Sources */,
 				932D1DA322A058C60026D411 /* OverviewCollectionViewController.swift in Sources */,

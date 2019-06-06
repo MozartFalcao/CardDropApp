@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="category1" translatesAutoresizingMaskIntoConstraints="NO" id="poI-eK-TuT">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wXF-cE-3la">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Photo Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3V-Ns-3Uw">
+                            <rect key="frame" x="30" y="474" width="224" height="35"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="28"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcq-ny-X5y">
+                            <rect key="frame" x="30" y="518" width="160" height="48"/>
+                            <string key="text">Swipe to choose,
+tap to select</string>
+                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.25" alpha="0.5" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Kcq-ny-X5y" firstAttribute="top" secondItem="f3V-Ns-3Uw" secondAttribute="bottom" constant="9" id="LaE-Ub-vp2"/>
+                        <constraint firstAttribute="trailing" secondItem="f3V-Ns-3Uw" secondAttribute="trailing" constant="705" id="RAQ-0Q-bhm"/>
+                        <constraint firstItem="Kcq-ny-X5y" firstAttribute="leading" secondItem="f3V-Ns-3Uw" secondAttribute="leading" id="Wc5-ol-bJK"/>
+                        <constraint firstItem="f3V-Ns-3Uw" firstAttribute="leading" secondItem="wXF-cE-3la" secondAttribute="leading" constant="30" id="bUH-39-VVH"/>
+                        <constraint firstAttribute="bottom" secondItem="f3V-Ns-3Uw" secondAttribute="bottom" constant="834" id="cp0-fc-idu"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="RXl-98-E7x"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="poI-eK-TuT" secondAttribute="bottom" id="CCD-oO-SId"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="poI-eK-TuT" secondAttribute="top" constant="20" id="I0n-AA-OOh"/>
+                <constraint firstItem="poI-eK-TuT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="WRF-Wd-I9U"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="poI-eK-TuT" secondAttribute="trailing" id="jUL-mU-hpO"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="52" y="51"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="category1" width="959" height="1343"/>
+    </resources>
+</document>
